@@ -1,0 +1,24 @@
+.grid {
+
+}
+
+.grid-body {
+
+}
+
+.row {
+
+}
+
+.cell {
+    width: 33.33%;
+    height: 33.33%;
+    padding: 30px;
+    font-size: 50px;
+    border: 1px solid grey;
+}
+
+.cell:hover {
+    background-color: grey;
+    cursor: pointer
+}

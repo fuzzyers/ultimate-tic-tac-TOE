@@ -9,14 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@firebase/firestore": "^4.7.5",
+    "firebase": "^11.0.2",
+    "next": "15.0.3",
+    "next-pwa": "^5.6.0",
     "react": "19.0.0-rc-66855b96-20241106",
-    "react-dom": "19.0.0-rc-66855b96-20241106",
-    "next": "15.0.3"
+    "react-dom": "19.0.0-rc-66855b96-20241106"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
-    "@types/react-dom": "^18"
+    "@types/react-dom": "^18",
+    "@types/webpack-env": "^1.18.5",
+    "typescript": "^5"
   }
 }
